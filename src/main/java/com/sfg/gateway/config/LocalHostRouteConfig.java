@@ -19,4 +19,5 @@ public class LocalHostRouteConfig {
                         .id("order-service"))
                 .build();
     }
+
 }
