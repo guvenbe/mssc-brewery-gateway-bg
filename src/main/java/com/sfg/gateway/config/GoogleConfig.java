@@ -13,7 +13,7 @@ public class GoogleConfig {
         return builder.routes()
                 .route(r -> r.path("/googlesearch2")
                         .filters(f -> f.rewritePath("/googlesearch2(?<segment>/?.*)", "/${segment}"))
-                         .uri("https://google.com")
+                        .uri("https://google.com")
                         .id("google"))
                 .build();
     }
